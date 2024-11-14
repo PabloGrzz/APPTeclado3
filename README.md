@@ -11,7 +11,7 @@ Para esto e pensado dos soluciones :
 
 Teclado1:
 ```
-https://github.com/PabloGrzz/APPTecladoNoFuncional.git
+https://github.com/PabloGrzz/APPTeclado1.git
 ```
 
 Hacer un GridLayout, dentro del LinearLayout por defecto, con un tamaño fijo en los botones en densidad de pixeles. Se adapta a casi todas los dispositivos exceptuando los que tienen una densidad de pixeles muy pequeña, como los apple watch. En la carpeta res\draweable e añadido un xml (diseno_boton.xml) en el que en el que le e dado estilo al los botones, dandoles forma cuadrada, añadiendo redondeado en los bordes, añadiendo un borde y haciendo un gradiante como color de fondo. Cada boton lo e conectado al estilo con este codigo "android:background="@drawable/diseno_boton"".
