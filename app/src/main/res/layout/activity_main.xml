@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:columnCount="3"
+    android:rowCount="3">
+
+    <!--        El layout_width y el layout_margin tienen que ser a 0 dp
+        para que se ajusten al tamaño de su celda en el grid.
+            Y en el layout_rowWeight y layout_columnWeight es para que se
+               distribuyan de manera uniforme a traves del espacio disponible
+                en el grid.
+                   El layout margin es para que quede mas bonito y los botones no
+          estén pegados.    -->
+
+    <!-- ESTURUCTURA-->
+    <Button
+        android:id="@+id/miBoton9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="4dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="9"
+        />
+
+    <Button
+        android:id="@+id/miBoton8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="4dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="8" />
+
+    <Button
+        android:id="@+id/miBoton7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="4dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="7" />
+
+    <Button
+        android:id="@+id/miBoton6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="4dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="6" />
+
+    <Button
+        android:id="@+id/miBoton5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="4dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="5" />
+
+    <Button
+        android:id="@+id/miBoton4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="4dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="4" />
+
+    <Button
+        android:id="@+id/miBoton3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="4dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="3" />
+
+    <Button
+        android:id="@+id/miBoton2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="4dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="2" />
+
+    <Button
+        android:id="@+id/miBoton1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="4dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/miBoton0"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="4dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_columnSpan="2"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/miBotonsuma"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="4dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_columnSpan="1"
+        android:text="=" />
+
+</GridLayout>
