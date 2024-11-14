@@ -10,10 +10,16 @@ Para esto e pensado dos soluciones :
 //Al final e decidido entregarte dos app separadas porque sino no podrias emular la otra pantalla a no ser que al pinchar un boton te lleve a la otra view...
 
 Teclado1:
+```
+https://github.com/PabloGrzz/APPTecladoNoFuncional.git
+```
 
 Hacer un GridLayout, dentro del LinearLayout por defecto, con un tamaño fijo en los botones en densidad de pixeles. Se adapta a casi todas los dispositivos exceptuando los que tienen una densidad de pixeles muy pequeña, como los apple watch. En la carpeta res\draweable e añadido un xml (diseno_boton.xml) en el que en el que le e dado estilo al los botones, dandoles forma cuadrada, añadiendo redondeado en los bordes, añadiendo un borde y haciendo un gradiante como color de fondo. Cada boton lo e conectado al estilo con este codigo "android:background="@drawable/diseno_boton"".
 
 Teclado3:
+```
+https://github.com/PabloGrzz/APPTeclado3.git
+```
 
 Hacer un GridLayout directamente y con match parent hacer que ocupe todo la pantalla. Con esto conseguimos que al rotarla tambien ocupe todo el tamaño de la pantalla, por lo tanto funciona correctamente en todos los dispositivos.
 
