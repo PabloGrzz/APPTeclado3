@@ -1,4 +1,4 @@
-﻿
+(Al final e decidido entregarte dos app separadas porque sino no podrias emular la otra pantalla a no ser que al pinchar un boton te lleve a la otra view...)
 
 Teclado Adaptable para Android
 
@@ -7,7 +7,7 @@ Descripción del Proyecto
 Este proyecto es una aplicación de Android que implementa una interfaz de usuario que imita un teclado utilizando botones. La aplicación se adapta dinámicamente al giro del dispositivo y reacciona al modo oscuro del sistema operativo.
 
 Para esto e pensado dos soluciones : 
-//Al final e decidido entregarte dos app separadas porque sino no podrias emular la otra pantalla a no ser que al pinchar un boton te lleve a la otra view...
+
 
 Teclado1:
 ```
